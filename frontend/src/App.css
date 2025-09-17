@@ -1,0 +1,44 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: blue;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+}
+
+.filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
